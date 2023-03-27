@@ -1,0 +1,21 @@
+<svg width="1171" height="801" viewBox="0 0 1171 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_603_577)">
+<path d="M272.201 679.865C196.43 681.91 156.373 693.931 156.373 706.814C156.373 722.502 161.891 734.567 212.115 739.577C250.946 743.433 509.732 737.605 630.721 737.765C793.605 737.985 903.302 740.365 936.462 740.891C1031.24 742.425 1052.14 685.547 929.82 681.194C817.466 677.177 384.043 676.871 272.201 679.865Z" fill="#CF9898" fill-opacity="0.39"/>
+</g>
+<g filter="url(#filter1_f_603_577)">
+<path d="M216.128 693.05C126.796 693.465 79.5703 695.907 79.5703 698.524C79.5703 701.71 86.0759 704.161 145.289 705.179C191.069 705.962 496.171 704.778 638.813 704.811C830.849 704.855 960.179 705.339 999.273 705.446C1111.01 705.757 1135.65 694.204 991.442 693.32C858.98 692.504 347.987 692.442 216.128 693.05Z" fill="#CF9898" fill-opacity="0.53"/>
+</g>
+<path d="M1000.12 709.107C895.778 706.85 717.286 701.224 587.438 699.254C257.294 694.327 212.947 714.033 101.701 702.456C24.1994 694.387 16.4355 627.004 8.62234 546.912C-0.166258 457.39 -3.45705 268.504 8.62234 160.095C18.9282 67.0465 38.0227 -5.79436 285.631 0.363565C482.704 5.26035 964.392 1.96955 964.392 1.96955C1134.39 1.96955 1152.86 45.1342 1161.45 124.744C1174.19 242.217 1174.19 449.183 1161.39 574.834C1150.65 679.401 1115.08 711.589 1000.12 709.107Z" fill="white"/>
+<defs>
+<filter id="filter0_f_603_577" x="96.3726" y="617.865" width="978.266" height="183.057" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="30" result="effect1_foregroundBlur_603_577"/>
+</filter>
+<filter id="filter1_f_603_577" x="59.5703" y="672.644" width="1051.87" height="52.8086" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_603_577"/>
+</filter>
+</defs>
+</svg>
