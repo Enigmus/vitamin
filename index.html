@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230327210903">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230331215441">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,9 +24,9 @@
 					<nav class="menu__body">
 						<ul class="menu__list">
 							<li class="menu__item"><a href="#" class="menu__link" data-title="Главная">Главная</a></li>
-							<li class="menu__item"><a href="#" class="menu__link" data-title="Товары">Товары</a></li>
-							<li class="menu__item"><a href="#" class="menu__link" data-title="Что выбрать">Что выбрать</a></li>
-							<li class="menu__item"><a href="#" class="menu__link" data-title="Контакты">Контакты</a></li>
+							<li class="menu__item"><a href="#" class="menu__link" data-title="Товары" data-goto="#product">Товары</a></li>
+							<li class="menu__item"><a href="#" class="menu__link" data-title="Что выбрать" data-goto="#test">Что выбрать</a></li>
+							<li class="menu__item"><a href="#" class="menu__link" data-title="Контакты" data-goto="#contact">Контакты</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -59,7 +59,7 @@
 							<p>Разработано ведущими экспертами России в области специализированного детского питания.</p>
 							<p>Миссия компании - заботиться о здоровье Ваших детей, создавая только эффективные и удобные формы витаминов и пищевых добавок.</p>
 						</div>
-						<a href="#" class="top-block__button button">Отправить</a>
+						<a href="#" class="top-block__button button" data-goto="#new">Подробнее</a>
 					</div>
 				</div>
 			</section>
@@ -71,7 +71,7 @@
 						</svg>
 					</div>
 					<div class="block02__main">
-						<div class="block02__container">
+						<div class="block02__container" id="new">
 							<div class="block02__header">Новая линейка <br> My #1st OptiMeal KIDS</div>
 							<div class="block02__body">
 								<div class="block02__item block02__item_bl1">
@@ -117,7 +117,7 @@
 				<div class="block03__wrapp">
 					<div class="block03__bg">
 						<div class="block03__swiper swiper">
-							<div class="block03__container swiper-wrapper">
+							<div class="block03__container swiper-wrapper" id="product">
 								<div class="block03__product swiper-slide">
 									<div class="block03__prod-img" data-title="Здоровые зубы и крепость костей Кальций для Вас и Вашах детей">
 										<picture><source srcset="img/product-1.webp" type="image/webp"><img src="img/product-1.png" alt="Крепкие кости"></picture>
@@ -186,7 +186,7 @@
 												</ul>
 											</div>
 										</div>
-										<button type="button" class="button slide__button">Где купить?</button>
+										<button type="button" class="button slide__button" data-popup="#popup">Где купить?</button>
 									</div>
 								</div>
 							</div>
@@ -227,7 +227,7 @@
 												</ul>
 											</div>
 										</div>
-										<button type="button" class="button slide__button">Где купить?</button>
+										<button type="button" class="button slide__button" data-popup="#popup">Где купить?</button>
 									</div>
 								</div>
 							</div>
@@ -266,7 +266,7 @@
 												</ul>
 											</div>
 										</div>
-										<button type="button" class="button slide__button">Где купить?</button>
+										<button type="button" class="button slide__button" data-popup="#popup">Где купить?</button>
 									</div>
 								</div>
 							</div>
@@ -302,7 +302,7 @@
 												</ul>
 											</div>
 										</div>
-										<button type="button" class="button slide__button">Где купить?</button>
+										<button type="button" class="button slide__button" data-popup="#popup">Где купить?</button>
 									</div>
 								</div>
 							</div>
@@ -314,7 +314,7 @@
 			<section class="block04">
 				<div class="block04__wrapper">
 					<div class="block04__container">
-						<div class="block04__content">
+						<div class="block04__content" id="test">
 							<h3 class="block04__header" id="header-block">Пройдите тест и узнайте, что необходимо вашему ребенку</h3>
 							<form action="#" method="post" class="block04__form test-form swiper">
 								<ul class="test-form__items swiper-wrapper">
@@ -434,35 +434,89 @@
 					</div>
 				</div>
 			</section>
-			<div style="background-color: yellow; margin-top: -50px;">
-				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-			</div>
-
+			<section class="block05">
+				<div class="block05__container">
+					<div class="block05__img-wrap">
+						<div class="block05__img">
+							<picture><source srcset="img/coloring.webp" type="image/webp"><img src="img/coloring.png" alt="Книжка-раскраска"></picture>
+						</div>
+					</div>
+					<div class="block05__content">
+						<h3 class="block05__header">Книжка-раскраска в подарок</h3>
+						<p class="block05__text">Чтобы ребенок не отставал в развитии, Вы должны постоянно придумывать новые игры. Особенно важно воспитать в нем усидчивость и умение сосредоточиться. Раскраски прекрасно решают эту задачу. Мы дарим детскую книжку-раскраску при покупке любого из товаров Optimeal Kids в магазинах Детский мир</p>
+						<p class="block05__text block05__text_bold">Подробности акции уточняйте у официального дистрибьютора Optimeal kids</p>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer">
-			<div class="footer__container">
+			<div class="footer__wrapp">
+				<div class="footer__container">
+					<div class="footer__row">
+						<form action="#" class="footer__form form-footer" method="post" data-dev id="contact">
+							<div class="form-footer__header">Связаться с нами</div>
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Имя" class="input form-footer__input" data-required>
+							<input autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="Телефон" class="input form-footer__input" data-required>
+							<button type="submit" class="button form-footer__button">Отправить</button>
+						</form>
+						<div class="footer__img-fish footer__img-fish_orange">
+							<picture><source srcset="img/fish02.webp" type="image/webp"><img src="img/fish02.png" alt="Рыба"></picture>
+						</div>
+						<div class="footer__img-fish footer__img-fish_yellow">
+							<picture><source srcset="img/fish01.webp" type="image/webp"><img src="img/fish01.png" alt="Рыба"></picture>
+						</div>
+					</div>
+					<div class="footer__row bottom-block">
+						<div class="bottom-block__row">
+							<p class="attention">Не является лекарственным средством</p>
+						</div>
+						<div class="bottom-block__row">
+							<div class="bottom-block__item">
+								<h4 class="bottom-block__header">ПРОИЗВОДИТЕЛЬ</h4>
+								<p class="bottom-block__text">ООО «ЭНЕРГИЯ ДВИЖЕНИЯ» 443080, Самарская обл., г. Самара, пр-кт Карла Маркса, д. 190, оф. 507</p>
+							</div>
+							<div class="bottom-block__item">
+								<h4 class="bottom-block__header">КОНТАКТЫ</h4>
+								<p class="bottom-block__text">
+									<a href="tel:+88462253202">8 (846) 225-32-02</a>
+									<a href="mailto:zakaz@optimeal.pro">zakaz@optimeal.pro</a>
+									<a href="http://www.optimeal.pro">www.optimeal.pro</a>
+								</p>
+							</div>
+							<div class="bottom-block__item">
+								<div class="bottom-block__social social">
+									<a href="#" class="social__item social__item_instagramm">Intagramm</a>
+									<a href="#" class="social__item social__item_vk">VK</a>
+									<a href="#" class="social__item social__item_whatsapp">WhatsApp</a>
+								</div>
+								<a class="bottom-block__logo" href="http://www.optimeal.pro"><img src="img/footer-logo.svg" alt="footer-logo"></a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</footer>
 	</div>
-	<!-- 
-<div id="popup" aria-hidden="true" class="popup">
-	<div class="popup__wrapper">
-		<div class="popup__content">
-			<button data-close type="button" class="popup__close">Закрыть</button>
-			<div class="popup__text">
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<h3 class="popup__header">Где можно купить Optimeal Kids?</h3>
+					<p class="popup__txt">Всю продукцию из линейки Optimeal Kids вы можете преобрести в магазинах или на сайте Детский мир.</p>
+					<a href="#" class="popup__link">
+						<picture><source srcset="img/dm.webp" type="image/webp"><img src="img/dm.png" alt="Детский мир"></picture>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
- -->
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js?_v=20230327210903"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js?_v=20230327210903"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js?_v=20230331215441"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js?_v=20230331215441"></script>
 
-	<script src="js/app.min.js?_v=20230327210903"></script>
-	<svg class="svg">
+	<script src="js/app.min.js?_v=20230331215441"></script>
+	<svg class="svg" height="0" width="0">
 		<clipPath id="clip" clipPathUnits="objectBoundingBox">
 			<path d="M0.855,1 C0.765,0.997,0.613,0.989,0.502,0.986 C0.22,0.979,0.182,1,0.087,0.99 C0.021,0.979,0.014,0.884,0.007,0.771 C0,0.645,-0.003,0.379,0.007,0.226 C0.016,0.095,0.032,-0.008,0.244,0.001 C0.412,0.007,0.824,0.003,0.824,0.003 C0.969,0.003,0.985,0.064,0.992,0.176 C1,0.342,1,0.633,0.992,0.81 C0.983,0.958,0.953,1,0.855,1"></path>
 		</clipPath>
